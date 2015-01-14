@@ -1,0 +1,314 @@
+USER     PID   PPID  VSIZE  RSS     WCHAN    PC         NAME
+root      1     0     804    652   ffffffff 00000000 S /init
+root      2     0     0      0     ffffffff 00000000 S kthreadd
+root      3     2     0      0     ffffffff 00000000 S ksoftirqd/0
+root      6     2     0      0     ffffffff 00000000 D kworker/u:0
+root      7     2     0      0     ffffffff 00000000 D kworker/u:0H
+root      8     2     0      0     ffffffff 00000000 S migration/0
+root      21    2     0      0     ffffffff 00000000 S khelper
+root      22    2     0      0     ffffffff 00000000 S netns
+root      28    2     0      0     ffffffff 00000000 S modem_notifier
+root      29    2     0      0     ffffffff 00000000 S smd_channel_clo
+root      30    2     0      0     ffffffff 00000000 S smsm_cb_wq
+root      32    2     0      0     ffffffff 00000000 S rpm-smd
+root      33    2     0      0     ffffffff 00000000 S kworker/u:1H
+root      34    2     0      0     ffffffff 00000000 S mpm
+
+root      51    2     0      0     ffffffff 00000000 S sync_supers
+root      52    2     0      0     ffffffff 00000000 S bdi-default
+root      53    2     0      0     ffffffff 00000000 S kblockd
+root      54    2     0      0     ffffffff 00000000 S system
+root      55    2     0      0     ffffffff 00000000 S khubd
+root      56    2     0      0     ffffffff 00000000 S irq/102-msm_iom
+root      57    2     0      0     ffffffff 00000000 S irq/102-msm_iom
+root      58    2     0      0     ffffffff 00000000 S irq/102-msm_iom
+root      59    2     0      0     ffffffff 00000000 S irq/79-msm_iomm
+root      60    2     0      0     ffffffff 00000000 S irq/78-msm_iomm
+root      61    2     0      0     ffffffff 00000000 S irq/78-msm_iomm
+root      62    2     0      0     ffffffff 00000000 S irq/74-msm_iomm
+root      63    2     0      0     ffffffff 00000000 S irq/75-msm_iomm
+root      64    2     0      0     ffffffff 00000000 S irq/75-msm_iomm
+root      65    2     0      0     ffffffff 00000000 S irq/75-msm_iomm
+root      66    2     0      0     ffffffff 00000000 S irq/75-msm_iomm
+root      67    2     0      0     ffffffff 00000000 S irq/273-msm_iom
+root      68    2     0      0     ffffffff 00000000 S irq/273-msm_iom
+root      69    2     0      0     ffffffff 00000000 S irq/273-msm_iom
+root      70    2     0      0     ffffffff 00000000 S irq/97-msm_iomm
+root      71    2     0      0     ffffffff 00000000 S irq/97-msm_iomm
+root      72    2     0      0     ffffffff 00000000 S irq/97-msm_iomm
+root      73    2     0      0     ffffffff 00000000 S devfreq_wq
+root      74    2     0      0     ffffffff 00000000 S l2cap
+root      75    2     0      0     ffffffff 00000000 S a2mp
+root      76    2     0      0     ffffffff 00000000 S cfg80211
+root      78    2     0      0     ffffffff 00000000 S irq/477-adsp
+root      79    2     0      0     ffffffff 00000000 S irq/413-mba
+root      80    2     0      0     ffffffff 00000000 S qmi
+root      81    2     0      0     ffffffff 00000000 S nmea
+root      82    2     0      0     ffffffff 00000000 S msm_ipc_router
+root      83    2     0      0     ffffffff 00000000 S apr_driver
+root      87    2     0      0     ffffffff 00000000 S kswapd0
+root      88    2     0      0     ffffffff 00000000 S fsnotify_mark
+root      89    2     0      0     ffffffff 00000000 S ecryptfs-kthrea
+root      90    2     0      0     ffffffff 00000000 S cifsiod
+root      91    2     0      0     ffffffff 00000000 S crypto
+root      109   2     0      0     ffffffff 00000000 S ad_calc_wq
+root      110   2     0      0     ffffffff 00000000 D mdss_dsi_event
+root      111   2     0      0     ffffffff 00000000 S hdmi_tx_workq
+root      112   2     0      0     ffffffff 00000000 S unblanker
+root      113   2     0      0     ffffffff 00000000 S k_hsuart
+root      114   2     0      0     ffffffff 00000000 S diag_real_time_
+root      115   2     0      0     ffffffff 00000000 S diag_modem_data
+root      116   2     0      0     ffffffff 00000000 S diag_lpass_data
+root      117   2     0      0     ffffffff 00000000 S diag_wcnss_data
+root      118   2     0      0     ffffffff 00000000 S diag_wq
+root      119   2     0      0     ffffffff 00000000 S diag_usb_wq
+root      120   2     0      0     ffffffff 00000000 S diag_cntl_wq
+root      121   2     0      0     ffffffff 00000000 S diag_dci_wq
+root      122   2     0      0     ffffffff 00000000 S kgsl-3d0
+root      123   2     0      0     ffffffff 00000000 S kgsl_devfreq_wq
+root      124   2     0      0     ffffffff 00000000 S f9923000.spi
+root      134   2     0      0     ffffffff 00000000 S usbnet
+root      135   2     0      0     ffffffff 00000000 S k_rmnet_mux_wor
+root      136   2     0      0     ffffffff 00000000 S f_mtp
+root      137   2     0      0     ffffffff 00000000 S file-storage
+root      138   2     0      0     ffffffff 00000000 S uether
+root      140   2     0      0     ffffffff 00000000 S kpsmoused
+root      141   2     0      0     ffffffff 00000000 S msm_vidc_worker
+root      142   2     0      0     ffffffff 00000000 S pm_workerq_venu
+root      143   2     0      0     ffffffff 00000000 S msm_vidc_worker
+root      144   2     0      0     ffffffff 00000000 S irq/345-pn547
+root      145   2     0      0     ffffffff 00000000 S irq/346-max1187
+root      146   2     0      0     ffffffff 00000000 S msm_cpp_workque
+root      147   2     0      0     ffffffff 00000000 S irq/638-bt host
+root      148   2     0      0     ffffffff 00000000 D dbs_sync/0
+root      149   2     0      0     ffffffff 00000000 D dbs_sync/1
+root      150   2     0      0     ffffffff 00000000 D dbs_sync/2
+root      151   2     0      0     ffffffff 00000000 D dbs_sync/3
+root      152   2     0      0     ffffffff 00000000 S cfinteractive
+root      153   2     0      0     ffffffff 00000000 S irq/170-msm_sdc
+root      154   2     0      0     ffffffff 00000000 S irq/253-msm_sdc
+root      155   2     0      0     ffffffff 00000000 S irq/289-
+root      156   2     0      0     ffffffff 00000000 S binder
+root      157   2     0      0     ffffffff 00000000 S usb_bam_wq
+root      158   2     0      0     ffffffff 00000000 S krfcommd
+root      159   2     0      0     ffffffff 00000000 S bam_dmux_rx
+root      160   2     0      0     ffffffff 00000000 S bam_dmux_tx
+root      161   2     0      0     ffffffff 00000000 S rq_stats
+root      162   2     0      0     ffffffff 00000000 S deferwq
+root      163   2     0      0     ffffffff 00000000 S sb-1
+root      164   2     0      0     ffffffff 00000000 D ngd_rx_thread1
+root      165   2     0      0     ffffffff 00000000 D ngd_notify_sl1
+root      166   2     0      0     ffffffff 00000000 D msm_thermal:hot
+root      167   2     0      0     ffffffff 00000000 D msm_thermal:fre
+root      168   2     0      0     ffffffff 00000000 D msm_thermal:the
+root      169   2     0      0     ffffffff 00000000 D boost_sync/0
+root      170   2     0      0     ffffffff 00000000 D boost_sync/1
+root      171   2     0      0     ffffffff 00000000 D boost_sync/2
+root      172   2     0      0     ffffffff 00000000 D boost_sync/3
+root      178   2     0      0     ffffffff 00000000 S mmcqd/1
+root      179   2     0      0     ffffffff 00000000 S mmcqd/1rpmb
+root      180   2     0      0     ffffffff 00000000 S irq/299-bsi-bat
+root      181   2     0      0     ffffffff 00000000 S mmcqd/2
+root      184   1     648    356   ffffffff 00000000 S /sbin/ueventd
+root      185   1     432    160   ffffffff 00000000 S /sbin/tad_static
+root      195   2     0      0     ffffffff 00000000 S jbd2/mmcblk0p23
+root      196   2     0      0     ffffffff 00000000 S ext4-dio-unwrit
+root      199   2     0      0     ffffffff 00000000 S jbd2/mmcblk0p25
+root      200   2     0      0     ffffffff 00000000 S ext4-dio-unwrit
+root      202   2     0      0     ffffffff 00000000 S jbd2/mmcblk0p24
+root      203   2     0      0     ffffffff 00000000 S ext4-dio-unwrit
+root      205   2     0      0     ffffffff 00000000 S jbd2/mmcblk0p22
+root      206   2     0      0     ffffffff 00000000 S ext4-dio-unwrit
+root      220   2     0      0     ffffffff 00000000 S flush-179:0
+root      225   2     0      0     ffffffff 00000000 S jbd2/mmcblk0p18
+root      226   2     0      0     ffffffff 00000000 S ext4-dio-unwrit
+root      229   2     0      0     ffffffff 00000000 S sii8620_timer
+root      230   2     0      0     ffffffff 00000000 S mhl_rcp_key_rel
+root      231   2     0      0     ffffffff 00000000 S irq/636-sii8620
+root      252   2     0      0     ffffffff 00000000 S IPCRTR
+root      253   2     0      0     ffffffff 00000000 S ipc_rtr_q6_ipcr
+root      254   1     1160   536   ffffffff 00000000 S /system/bin/ta_qmi_servic
+e
+root      255   1     1116   316   ffffffff 00000000 S /system/bin/sct_service
+root      256   1     1116   316   ffffffff 00000000 S /system/bin/mlog_qmi_serv
+ice
+root      268   2     0      0     ffffffff 00000000 S msm_slim_qmi_cl
+root      269   2     0      0     ffffffff 00000000 S msm_qmi_rtx_q
+root      271   2     0      0     ffffffff 00000000 S irq/288-wcd9xxx
+root      283   1     2476   4     ffffffff 00000000 S /sbin/healthd
+system    284   1     1012   176   ffffffff 00000000 S /system/bin/servicemanage
+r
+root      285   1     4972   1072  ffffffff 00000000 S /system/bin/vold
+system    287   1     2196   556   ffffffff 00000000 S /system/bin/rfs_access
+system    289   1     2144   316   ffffffff 00000000 S /system/bin/qseecomd
+root      290   1     6328   532   ffffffff 00000000 S /system/bin/illumination_
+service
+root      291   1     1984   204   ffffffff 00000000 S /system/bin/remote_vold
+root      292   1     10412  1796  ffffffff 00000000 S /system/bin/netd
+root      293   1     1160   632   ffffffff 00000000 S /system/bin/debuggerd
+radio     294   1     30372  6252  ffffffff 00000000 S /system/bin/rild
+system    295   1     101520 10092 ffffffff 00000000 S /system/bin/surfaceflinge
+r
+root      297   1     871684 85212 ffffffff 00000000 S zygote
+drm       298   1     39048  6692  ffffffff 00000000 S /system/bin/drmserver
+media     299   1     175296 60036 ffffffff 00000000 S /system/bin/mediaserver
+install   300   1     1048   504   ffffffff 00000000 S /system/bin/installd
+keystore  301   1     4412   1004  ffffffff 00000000 S /system/bin/keystore
+root      302   1     3484   644   ffffffff 00000000 S /system/bin/qcom-system-d
+aemon
+system    305   1     3192   504   ffffffff 00000000 S /system/bin/ptt_socket_ap
+p
+idd       307   1     4656   1208  ffffffff 00000000 S /system/bin/iddd
+system    308   1     932    188   ffffffff 00000000 S /system/bin/qrngd
+media     309   1     1956   156   ffffffff 00000000 S /system/bin/adsprpcd
+system    310   1     3544   596   ffffffff 00000000 S /system/bin/imsqmidaemon
+system    314   1     1072   476   ffffffff 00000000 S /system/bin/scd
+root      315   1     1468   60    ffffffff 00000000 S /system/bin/ssrapp
+root      316   1     444    172   ffffffff 00000000 S /sbin/ric
+root      318   1     30760  348   ffffffff 00000000 S /system/bin/xssm
+root      320   1     1980   200   ffffffff 00000000 S /system/bin/apfd
+root      321   1     6740   824   ffffffff 00000000 S /system/bin/fast-dormancy
+
+system    323   1     4588   1732  ffffffff 00000000 S /system/bin/credmgrd
+system    349   289   4244   284   ffffffff 00000000 S /system/bin/qseecomd
+radio     357   1     11816  680   ffffffff 00000000 S /system/bin/qmuxd
+sensors   358   1     33712  720   ffffffff 00000000 S /system/bin/sensors.qcom
+system    362   1     1656   312   ffffffff 00000000 S /system/bin/suntrold
+radio     364   1     9012   1072  ffffffff 00000000 S /system/bin/netmgrd
+root      369   2     0      0     ffffffff 00000000 S dmx_tsif0
+root      370   2     0      0     ffffffff 00000000 S dmx_tsif1
+idd       400   307   1268   560   ffffffff 00000000 S /system/bin/idd-logreader
+
+system    407   1     13164  2600  ffffffff 00000000 S /system/bin/cnd
+media_rw  411   1     6168   3060  ffffffff 00000000 S /system/bin/sdcard
+media_rw  412   1     3536   432   ffffffff 00000000 S /system/bin/sdcard
+system    413   1     3028   420   ffffffff 00000000 S /system/bin/ssr_diag
+system    414   1     31224  7344  ffffffff 00000000 S /system/bin/mm-qcamera-da
+emon
+gps       415   1     23580  5432  ffffffff 00000000 S /system/bin/gsiff_daemon
+system    416   1     7584   632   ffffffff 00000000 S /system/bin/time_daemon
+nobody    419   1     5752   564   ffffffff 00000000 S /system/bin/rmt_storage
+system    420   1     4628   1252  ffffffff 00000000 S /system/bin/imsdatadaemon
+
+system    421   1     30012  5264  ffffffff 00000000 S /system/bin/mm-pp-daemon
+root      426   1     1980   224   ffffffff 00000000 S /system/bin/touchscreend
+root      427   1     25052  1260  ffffffff 00000000 S /system/bin/system_monito
+r
+root      450   2     0      0     ffffffff 00000000 D mdss_fb0
+root      462   2     0      0     ffffffff 00000000 S kworker/u:2
+root      619   2     0      0     ffffffff 00000000 S IPCRTR
+root      620   2     0      0     ffffffff 00000000 S ipc_rtr_smd_ipc
+system    624   1     13572  3348  ffffffff 00000000 S /system/bin/ims_rtp_daemo
+n
+root      733   2     0      0     ffffffff 00000000 S kworker/u:2H
+system    916   297   1066864 150484 ffffffff 00000000 S system_server
+u0_a36    1149  297   1013764 128396 ffffffff 00000000 S com.android.systemui
+u0_a206   1261  297   952824 118772 ffffffff 00000000 S com.sonyericsson.textinp
+ut.uxp
+radio     1280  297   926660 83088 ffffffff 00000000 S com.android.phone
+u0_a198   1289  297   883080 73852 ffffffff 00000000 S com.sonyericsson.devicemo
+nitor
+system    1298  297   881576 67696 ffffffff 00000000 S com.sonyericsson.android.
+wakeup
+system    1323  297   880548 66364 ffffffff 00000000 S com.sonymobile.prototypep
+rotection
+u0_a258   1338  297   880552 67656 ffffffff 00000000 S com.sonymobile.xtp.androi
+d
+system    1345  297   881664 68464 ffffffff 00000000 S com.sonymobile.mirrorlink
+.system
+nfc       1369  297   895768 74344 ffffffff 00000000 S com.android.nfc
+u0_a102   1385  297   919608 137456 ffffffff 00000000 S com.sonyericsson.home
+root      1453  2     0      0     ffffffff 00000000 S exfatd/mmcblk1p
+media_rw  1454  1     4244   1416  ffffffff 00000000 S /system/bin/sdcard
+u0_a281   1464  297   906744 87844 ffffffff 00000000 S com.oasisfeng.greenify:se
+rvice
+u0_a192   1592  297   880536 66924 ffffffff 00000000 S com.android.smspush
+system    1606  297   881652 67604 ffffffff 00000000 S com.sonyericsson.android.
+bootinfo:remote
+u0_a31    1756  297   945960 91232 ffffffff 00000000 S com.google.process.locati
+on
+u0_a2     1785  297   886284 76332 ffffffff 00000000 S com.rootuninstaller.batrs
+aver
+root      1817  1     928    184   ffffffff 00000000 S /system/bin/fota-trigger
+root      1826  2     0      0     ffffffff 00000000 S irq/33-cpubw_hw
+u0_a0     1835  297   917880 89408 ffffffff 00000000 S us.onetek.cmapplock
+root      1862  1     6232   400   ffffffff 00000000 S /system/bin/mpdecision
+u0_a249   2003  297   929556 93600 ffffffff 00000000 S com.sonymobile.lifelog:Lo
+ggerHostService
+system    2222  297   881588 68744 ffffffff 00000000 S com.sonymobile.touchscree
+n.touchfilter
+u0_a276   2232  297   940664 110224 ffffffff 00000000 S com.cleanmaster.mguard:s
+ervice
+system    2968  297   880624 67108 ffffffff 00000000 S com.sonymobile.extendedbo
+otlock.service
+u0_a123   2987  297   880612 66764 ffffffff 00000000 S com.sonymobile.intelligen
+t.iengine
+radio     3006  297   882680 67968 ffffffff 00000000 S com.qualcomm.qcrilmsgtunn
+el
+u0_a73    3244  297   917912 85464 ffffffff 00000000 S com.google.android.google
+quicksearchbox:search
+u0_a118   3772  297   890388 81240 ffffffff 00000000 S net.dinglisch.android.tas
+kerm
+u0_a275   3837  297   893076 75328 ffffffff 00000000 S com.keyes.screebl.lite
+system    4874  297   885456 69300 ffffffff 00000000 S com.sonymobile.superstami
+na:appwidget
+u0_a102   4911  297   887980 87356 ffffffff 00000000 S com.sonyericsson.advanced
+widget.clock
+u0_a159   4996  297   883240 73236 ffffffff 00000000 S com.sonyericsson.crashmon
+itor
+system    5096  297   887444 75088 ffffffff 00000000 S com.sonymobile.phoneusage
+
+u0_a186   5439  297   902960 88440 ffffffff 00000000 S com.sand.airdroid
+u0_a186   5459  5439  0      0     ffffffff 00000000 Z libairDog.so
+u0_a186   5466  297   892780 76608 ffffffff 00000000 S com.sand.airdroid:push
+u0_a281   5842  297   891508 75724 ffffffff 00000000 S com.oasisfeng.greenify
+u0_a217   7030  297   921908 77200 ffffffff 00000000 S com.example.user.hellowor
+ld
+u0_a52    10554 297   884524 75076 ffffffff 00000000 S android.process.acore
+u0_a31    10967 297   928532 84364 ffffffff 00000000 S com.google.android.gms
+u0_a130   11098 297   883244 70532 ffffffff 00000000 S com.sonyericsson.android.
+locationbasedwifi:service
+u0_a109   11592 297   949620 112428 ffffffff 00000000 S com.sonymobile.experienc
+eflow2
+u0_a26    11768 297   894008 75096 ffffffff 00000000 S android.process.media
+u0_a20    11792 297   883588 71240 ffffffff 00000000 S com.android.providers.cal
+endar
+u0_a156   11823 297   897268 72984 ffffffff 00000000 S com.android.calendar
+u0_a115   11841 297   896828 77060 ffffffff 00000000 S com.google.android.calend
+ar
+smartcard 11913 297   883200 68232 ffffffff 00000000 S org.simalliance.openmobil
+eapi.service
+system    11950 297   883620 68712 ffffffff 00000000 S com.sonymobile.enterprise
+.service
+u0_a255   11964 297   882792 68908 ffffffff 00000000 S com.sonymobile.deviceconf
+igtool
+u0_a31    12035 297   921712 76080 ffffffff 00000000 S com.google.android.gms.we
+arable
+u0_a175   12076 297   897116 74424 ffffffff 00000000 S com.sonymobile.camerawidg
+et
+u0_a21    12094 297   884320 70080 ffffffff 00000000 S com.sonymobile.cameracomm
+on
+u0_a54    12117 297   916556 92236 ffffffff 00000000 S com.sonyericsson.music
+u0_a176   12170 297   891424 72124 ffffffff 00000000 S com.sonymobile.dlna
+u0_a285   12333 297   930424 104548 ffffffff 00000000 S com.facebook.orca
+u0_a290   12422 297   884592 68876 ffffffff 00000000 S com.franco.perappmodes:pe
+rAppModesService
+root      12531 2     0      0     ffffffff 00000000 S kworker/0:0
+shell     12543 31251 932    464   c040c3f8 b6f4f520 S /system/bin/sh
+root      12588 2     0      0     ffffffff 00000000 S kworker/u:3
+root      12720 2     0      0     ffffffff 00000000 S kworker/0:1H
+root      12820 2     0      0     ffffffff 00000000 S kworker/0:1
+root      12827 2     0      0     ffffffff 00000000 S kworker/0:2H
+root      12832 2     0      0     ffffffff 00000000 S kworker/u:4
+shell     12852 31251 932    476   c0109118 b6f1d390 S /system/bin/sh
+root      12907 2     0      0     ffffffff 00000000 S kworker/0:2
+root      12911 2     0      0     ffffffff 00000000 S kworker/u:1
+root      12915 2     0      0     ffffffff 00000000 S kworker/0:0H
+shell     12944 12852 1252   236   00000000 b6f11520 R ps
+u0_a31    20868 297   943452 97484 ffffffff 00000000 S com.google.process.gapps
+u0_a272   25111 297   1007160 144132 ffffffff 00000000 S com.whatsapp
+u0_a277   25139 297   905920 90720 ffffffff 00000000 S com.malangstudio.alarmmon
+
+u0_a3     25323 297   883968 73688 ffffffff 00000000 S com.alarmclock.xtreme
+system    26949 297   883840 70292 ffffffff 00000000 S com.sonyericsson.usbux
+shell     31251 1     5648   280   ffffffff 00000000 S /sbin/adbd
