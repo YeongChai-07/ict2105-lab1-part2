@@ -1,0 +1,17 @@
+It shows up the top 10 processes that utilizes the CPU resources most.
+
+User 3%, System 5%, IOW 0%, IRQ 0%
+User 10 + Nice 0 + Sys 16 + Idle 282 + IOW 0 + IRQ 0 + SIRQ 0 = 308
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+ 1643  0   3% R     1   1340K    484K     shell    top
+  916  0   2% S   106 1081536K 163284K  fg system   system_server
+ 5096  0   0% S    14 887452K  75416K  bg system   com.sonymobile.phoneusage
+  299  2   0% S    31 178408K  58900K  fg media    /system/bin/mediaserver
+    3  0   0% S     1      0K      0K     root     ksoftirqd/0
+29548  0   0% S    12 884592K  69372K  bg u0_a290  com.franco.perappmodes:perApp
+ModesService
+25111  0   0% S    54 1004912K 145588K  bg u0_a272  com.whatsapp
+ 1862  0   0% S     6   6232K    464K     root     /system/bin/mpdecision
+  427  2   0% S    22  25052K   1136K     root     /system/bin/system_monitor
+29647  0   0% S     1      0K      0K     root     kworker/0:1
