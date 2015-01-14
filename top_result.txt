@@ -1,0 +1,15 @@
+User 2%, System 3%, IOW 0%, IRQ 0%
+User 7 + Nice 0 + Sys 11 + Idle 290 + IOW 0 + IRQ 0 + SIRQ 0 = 308
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+28787  0   3% R     1   1348K    484K     shell    top
+ 5096  0   0% S    14 887444K  72732K  bg system   com.sonymobile.phoneusage
+13980  0   0% S     1      0K      0K     root     kworker/0:5
+  916  0   0% S   106 1071640K 165984K  fg system   system_server
+21902  0   0% S     1      0K      0K     root     kworker/u:6
+  427  2   0% S    22  25052K   1140K     root     /system/bin/system_monitor
+28745  2   0% S    14 886672K  68636K  bg u0_a290  com.franco.perappmodes:perApp
+ModesService
+ 1862  0   0% S     6   6232K    376K     root     /system/bin/mpdecision
+   28  1   0% S     1      0K      0K     root     modem_notifier
+   29  1   0% S     1      0K      0K     root     smd_channel_clo
