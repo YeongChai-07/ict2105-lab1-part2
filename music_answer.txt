@@ -1,0 +1,98 @@
+Answer: There are 4 processes involved in playing the music. 
+They are "system_server", "com.google.android.music:main", "android.process.media", and "/system/bin/mediaserver" processes.
+
+================ Here's the "top" command logs:==========================
+
+User 28%, System 20%, IOW 1%, IRQ 0%
+User 144 + Nice 40 + Sys 130 + Idle 321 + IOW 7 + IRQ 0 + SIRQ 1 = 643
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  916  0  27% S   106 1081488K 164904K  fg system   system_server
+30965  0   4% S    37 971172K 110072K  fg u0_a218  com.google.android.music:main
+
+ 3875  0   2% R     1   1352K    484K     shell    top
+ 3915  0   1% S    16 889188K  74196K  bg u0_a26   android.process.media
+ 2232  0   1% S    45 943080K 109656K  bg u0_a276  com.cleanmaster.mguard:servic
+e
+ 3941  2   1% S    12 883564K  71120K  bg u0_a20   com.android.providers.calenda
+r
+31642  2   0% S    10 883120K  67624K  bg system   com.sonyericsson.tvout.mhl
+ 1862  0   0% S     6   6232K    452K     root     /system/bin/mpdecision
+  297  0   0% S     4 871684K  83504K     root     zygote
+31706  3   0% S    52 1082020K 182968K  fg u0_a218  com.google.android.music:ui
+ 3529  0   0% S     1      0K      0K     root     kworker/0:2
+ 5096  2   0% S    14 887452K  73024K  bg system   com.sonymobile.phoneusage
+    7  0   0% D     1      0K      0K     root     kworker/u:0H
+    2  0   0% S     1      0K      0K     root     kthreadd
+  178  0   0% S     1      0K      0K     root     mmcqd/1
+
+
+
+User 10%, System 11%, IOW 0%, IRQ 0%
+User 30 + Nice 1 + Sys 36 + Idle 242 + IOW 0 + IRQ 0 + SIRQ 0 = 309
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  916  0   6% S   106 1081488K 164904K  fg system   system_server
+ 3875  0   4% R     1   1352K    484K     shell    top
+  316  0   1% S     1    444K    172K     root     /sbin/ric
+  299  2   1% S    34 181480K  58984K  fg media    /system/bin/mediaserver
+ 3915  0   0% S    16 889184K  74200K  bg u0_a26   android.process.media
+ 5096  2   0% S    14 887452K  73132K  bg system   com.sonymobile.phoneusage
+ 2003  0   0% S    45 929556K  92864K  fg u0_a249  com.sonymobile.lifelog:Logger
+HostService
+31642  2   0% S    10 883120K  67536K  bg system   com.sonyericsson.tvout.mhl
+ 3941  2   0% S    12 883560K  71120K  bg u0_a20   com.android.providers.calenda
+r
+  427  2   0% S    22  25052K   1136K     root     /system/bin/system_monitor
+29630  0   0% S     1      0K      0K     root     kworker/0:1H
+    7  0   0% D     1      0K      0K     root     kworker/u:0H
+29867  0   0% S     1      0K      0K     root     kworker/u:6
+ 2232  0   0% S    45 943080K 109660K  bg u0_a276  com.cleanmaster.mguard:servic
+e
+  152  0   0% S     1      0K      0K     root     cfinteractive
+
+
+User 8%, System 6%, IOW 0%, IRQ 0%
+User 30 + Nice 0 + Sys 23 + Idle 284 + IOW 0 + IRQ 0 + SIRQ 0 = 337
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+ 3875  0   3% R     1   1352K    484K     shell    top
+  916  0   2% S   106 1081488K 164904K  fg system   system_server
+  297  0   1% S     4 871684K  83500K     root     zygote
+ 3915  2   1% S    17 892308K  74352K  fg u0_a26   android.process.media
+  299  2   0% S    34 181480K  58984K  fg media    /system/bin/mediaserver
+ 5096  2   0% S    14 887452K  73620K  bg system   com.sonymobile.phoneusage
+ 3529  0   0% S     1      0K      0K     root     kworker/0:2
+ 3618  0   0% S     1      0K      0K     root     kworker/u:1
+29867  3   0% S     1      0K      0K     root     kworker/u:6
+ 1862  0   0% S     6   6232K    452K     root     /system/bin/mpdecision
+ 2003  2   0% S    45 929556K  92864K  fg u0_a249  com.sonymobile.lifelog:Logger
+HostService
+  427  2   0% S    22  25052K   1136K     root     /system/bin/system_monitor
+20044  0   0% S    33 1063172K 100692K  fg u0_a31   com.google.android.gms
+31251  0   0% S     5   4624K    248K     shell    /sbin/adbd
+   51  0   0% S     1      0K      0K     root     sync_supers
+
+
+
+User 11%, System 8%, IOW 1%, IRQ 0%
+User 20 + Nice 27 + Sys 34 + Idle 310 + IOW 4 + IRQ 0 + SIRQ 0 = 395
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+ 3915  0   5% S    16 889328K  74636K  bg u0_a26   android.process.media
+  916  0   4% S   106 1081488K 164904K  fg system   system_server
+ 3875  0   2% R     1   1352K    484K     shell    top
+30965  0   1% S    37 971172K 110064K  fg u0_a218  com.google.android.music:main
+
+ 2003  2   0% S    45 929556K  92864K  fg u0_a249  com.sonymobile.lifelog:Logger
+HostService
+ 3529  0   0% S     1      0K      0K     root     kworker/0:2
+ 5096  2   0% S    14 887452K  73748K  bg system   com.sonymobile.phoneusage
+ 1862  0   0% S     6   6232K    452K     root     /system/bin/mpdecision
+31706  3   0% S    52 1082020K 182968K  fg u0_a218  com.google.android.music:ui
+    3  0   0% S     1      0K      0K     root     ksoftirqd/0
+  299  2   0% S    34 181480K  58984K  fg media    /system/bin/mediaserver
+    7  0   0% D     1      0K      0K     root     kworker/u:0H
+29630  0   0% S     1      0K      0K     root     kworker/0:1H
+  178  0   0% S     1      0K      0K     root     mmcqd/1
+  427  2   0% S    22  25052K   1136K     root     /system/bin/system_monitor
